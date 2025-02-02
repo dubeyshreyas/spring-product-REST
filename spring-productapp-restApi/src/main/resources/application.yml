@@ -1,0 +1,13 @@
+#datasource specific configuration
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/masterDb
+  username: postgres
+  password: root
+
+#jpa specific config
+ jpa:
+  show-sql: true
+  hibernate:
+    ddl-auto: update
+  
